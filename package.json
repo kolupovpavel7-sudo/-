@@ -1,0 +1,14 @@
+{
+  "name": "messenger",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cd server && node --watch src/index.js",
+    "build": "cd client && npm install && npm run build",
+    "start": "cd server && node src/index.js",
+    "setup": "cd client && npm install && cd ../server && npm install"
+  },
+  "devDependencies": {
+    "localtunnel": "^2.0.2"
+  }
+}
